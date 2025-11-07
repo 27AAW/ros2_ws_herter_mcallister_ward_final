@@ -62,7 +62,8 @@ def generate_launch_description():
                 'axis_linear.y': 1,      # Left stick vertical (forward/backward)
                 'axis_linear.x': 0,      # Left stick horizontal (strafe)
                 'axis_angular.yaw': 3,   # Left stick horizontal (rotation)
-                'scale_linear.x': 1.0,   # Linear speed scaling
+                'scale_linear.x': -1.0,   # Linear speed scaling
+                'scale_linear.y': 1.0,   # Linear speed scaling
                 'scale_angular.yaw': 1.0, # Angular speed scaling
                 'enable_button': 3,      # L1/LB button to enable (button index 4)
                 'require_enable_button': True
